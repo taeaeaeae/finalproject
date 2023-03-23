@@ -1,4 +1,5 @@
-body {
+/* 전체 스타일 */
+  body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -7,7 +8,7 @@ body {
   
   /* 헤더 */
   #logo{
-    width: 100px;
+    width: 200px;
     /* float: left; */
     /* position: fixed; */
   }
@@ -49,115 +50,26 @@ body {
   }
   
   /* 본문 */
-  section.head {
+  section {
     margin: 20px;
-    height: 90%;
+    height: 1000px;
     text-align: center;
   }
 
-  section.main{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    text-align: center;
+  input[type="file"]{
+    padding-bottom: 10px;
   }
 
-  .board_title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120%;
-  }
-  
-  .board_title .info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .board_title .info span:not(:last-child) {
-    margin-right: 10px;
-  }
-
-  /* 댓글 */
-  section.comment{
-    margin: 20px;
-    height: 90%;
-  }
-
-  .comments {
-    padding: 20px;
-  }
-  
-  .comment {
-    margin-bottom: 20px;
-  }
-  
-  .comment .content {
-    margin-bottom: 10px;
-  }
-  
-  .comment .info {
-    font-size: 16px;
-    color: gray;
-  }
-  
-  .comment .info .nickname {
-    margin-right: 10px;
-  }
-  
-  .comment-form {
-    margin-top: 20px;
-  }
-  
-  .comment-form label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .comment-form input[type="text"] {
-    display: inline-block;
+  input[type="text"] {
     width: 80%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid gray;
+    height: 20px;
   }
   
-  .comment-form button[type="submit"] {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: gray;
-    color: white;
-    cursor: pointer;
+  textarea {
+    width: 80%;
+    height: 300px;
   }
   
-  /* 버튼 */
-  .list_button{
-    text-align: center;
-  }
-  .button {
-    margin-top: 20px;
-    margin-right: 10px;
-    padding: 10px 30px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    background-color: #f2f2f2;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .button:hover {
-    background-color: #ddd;
-  }
-
   /* 사이드바 */
   aside {
     background-color: #eee;
@@ -165,7 +77,6 @@ body {
     font-size: 12px;
     padding: 20px;
     margin: 20px;
-    
   }
   
   /* 푸터 */
