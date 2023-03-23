@@ -1,0 +1,145 @@
+  /* 전체 스타일 */
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* 네비게이션 */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+  }
+  
+  div.logo {
+    margin-right: auto; /* div.logo를 왼쪽에 위치시키고, 오른쪽에 margin을 주어 너비가 자동으로 조절될 수 있도록 합니다. */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  div.logo h1 {
+    padding-right: 10px;
+  }
+
+  nav {
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    flex: 1; /* nav 요소가 div.logo와 동일한 너비를 가지도록 합니다. */
+  }
+  
+  nav ul {
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+  }
+
+  /* 배너 스타일 */
+  .banner {
+    background-image: url('/img/bora-bora-685303.jpg');
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* 소개 스타일 */
+  .about-us {
+    padding: 50px;
+    background-color: #eee;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  /* 사이드바 */
+  aside {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 5px;
+  }
+  
+  /* 푸터 */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+  }
