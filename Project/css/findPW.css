@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+h3{
+    margin-top: 1%;
+}
+.find{
+    text-align: center;
+}
+input{
+    margin-bottom: 1%;
+    width: 300px;
+    height: 50px;
+}
+button{
+    margin-top: 2%;
+    width: 300px;
+    height: 50px;
+    background-color:#D2EEFA;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 13pt;
+    text-align: center;
+    /* 왜 가운데로 안갈까  */
+} 
