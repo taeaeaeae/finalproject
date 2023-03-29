@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/QnA.css">
+    <script src="https://kit.fontawesome.com/0afe3af558.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<header>
+  <div class="logo">
+    <h1>TTT</h1>
+    <p>Travle Trade MaTe</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">루트공유 게시판</a></li>
+      <li><a href="/자유게시판_목록.html">자유게시판</a></li>
+      <li><a href="#">공지사항</a></li>
+      <li><a href="#">QnA</a></li>
+    </ul>
+  </nav>
+  <p class="btn"><a href="#">로그인</a></p>
+  <p class="btn"><a href="#">회원가입</a></p>
+</header>
+
+
+
+  <body>
+    <div class="container">
+      <h2>QnA 작성</h2>
+      <form action="write.jsp" method="post">
+        <div class="form-group">
+          
+          <label for="title">제목</label>
+          <input type="text" class="form-control" id="title"
+          placeholder="제목 입력(4-100)" name="title"
+          maxlength="100" required="required"
+          pattern=".{4,100}">
+        </div>
+
+        <div class="form-group">
+      <label for="content">내용</label>
+      <textarea class="form-control" rows="5" id="content"
+        name="content" placeholder="내용 작성"></textarea>
+    </div>
+
+        <div class="form-group">
+          <label for="writer">작성자</label>
+          <input type="text" class="form-control" id="writer"
+          placeholder="작성자(2자-10자)" name="writer">
+        </div>
+        
+        <button type="submit" class="btn btn-default">등록</button>
+      </form>
+    </div>
+    </body>
+    </html>
+
+
+<p></p>
+
+<aside>
+  <h2>TTT</h2>
+  <p>사업자 번호 : 123-45-67891</p>
+  <p>대표 : 어쩌구</p>
+  <p>(12345) Lorem ipsum dolor sit amet.(Lorem, ipsum dolor.)</p>
+  <p>전화 : 02-125-2424 팩스 : 02-124-3214 이메일 : Lorem@Loreme.java</p>
+</aside>
+
+<footer>
+  <p>저작권 © 2023. 세후천조.</p>
+</footer>
