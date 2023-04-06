@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/회원정보수정.css">
+    <script src="https://kit.fontawesome.com/0afe3af558.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" defer src="script1.js"></script>
+    <title>트트트</title>
+  </head>
+  
+  <body>
+    <div class="header_container">
+      
+      <div class="header">
+        <a href="#">
+          <div class="bar_logo">
+            <h1>트트트</h1>
+            <h3>Travel Trade maTe</h3>
+          </div>
+        </a>
+      </div>
+      
+      <ul class="bar_menu">
+        <li><a href="#">루트공유게시판</a></li>
+        <li><a href="#">자유게시판</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">QnA</a></li>
+      </ul>
+      
+      <div class="bar_userimg">
+        <span><a href="#"><i class="fas fa-user"></i></a></span>
+        <span><a href="#" id="User">User</a></sapan>
+        </div>  
+        
+        <div class="bar_logout">
+          <a href="#">logout</a>
+        </div>
+        
+        <div class="bar_Mypage">
+          <a href="#">Mypage</a>
+        </div>
+      </div>  
+      
+      <!-- 옆에 메뉴바 -->
+      <div class="page_menu">
+        <dl>
+          <dt>마이페이지
+            <dd><img src="1.png"/></dd>
+            <dd><a href="#">닉네임/아이디</a></dd>
+            <dd><a href="/finalproject/마이페이지/회원정보수정3.html">개인정보 수정</a></dd>
+            <dd><a href="/finalproject/마이페이지/나의일정2.html">나의 일정</a></dd>
+            <dd><a href="/내저장.html">저장목록</a></dd>
+          </dt>
+        </dl>
+      </div>
+
+      <!-- 회원정보수정 -->
+      <div class="membership_information">
+        <h1>회원정보수정</h1>
+        <h3>아이디 User님</h3>
+        
+        <div class="container2">
+          
+          <div class="nickname">
+            <div>닉네임 변경</div>
+            <input type="text" id="nickname" placeholder="변경할 닉네임을 입력해주세요.">
+            <a href="#">중복확인</a>
+          </div>
+          
+          <div class="passwd">
+            <div>현재 비밀번호</div>
+            <input type="text" id="passwd" placeholder="현재 비밀번호를 입력해주세요.">
+          </div>
+          
+          <div class="newpasswd" >
+            <div>새 비밀번호</div>
+            <input type="text" id="newpsswd" placeholder="변경할 비밀번호를 입력해주세요.">
+          </div>
+          
+          <div class="cknewpasswd" >
+            <div>새 비밀번호 확인</div>
+            <input type="text" id="cknewpasswd" placeholder="새 비밀번호를 한번더 입력해주세요.">
+            <font id="pwNotice" size="2"></font>
+          </div>
+          
+          <div class="email">
+            <div>이메일</div>
+            <input type="text" id="email" placeholder="이메일을 입력해 주세요.">
+          </div>
+          
+          <div class="phonenumber">
+            <div>휴대폰 번호</div>
+            <input type="text" id="phonenumber" placeholder="휴대폰 번호를 입력해주세요.">
+            <a href="#">인증번호 확인</a>
+          </div>
+        </div>
+        
+        
+          <div>
+            <button type="button" class="button1" onclick="button1()">
+            회원탈퇴
+          </button>
+          
+          
+          <button type="button" class="button2" id="b2" onclick="button2()">
+           회원정보 수정
+          </button>
+        </div>
+        
+      </div>
+    </body>
+    </html>
